@@ -1,0 +1,8 @@
+2017-11-20 19:34:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "INFORMATION_SCHEMA" не найдена
+Table "INFORMATION_SCHEMA" not found; SQL statement:
+select*from INFORMATION_SCHEMA constraints [42102-196]
+2017-11-20 19:50:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "TAG" не найдена
+Table "TAG" not found; SQL statement:
+alter table PUBLIC.Tag drop constraint FK1477AED67E3F0 [42102-196]
